@@ -3,10 +3,19 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVNN73KZF8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-PVNN73KZF8');
+  </script>
     <meta charset="utf-8">
 
     <title>Friendly Dental</title>
-    <meta name="description" content="Cheap, fast, and friendly dental in Napier and Hastings">
+    <meta name="description" content="Cheap, fast, and friendly dental services and orthodontics in the heart of Napier and Hastings! New patients welcome">
     <meta name="author" content="Friendly Dental">
     <meta name="viewport" content="width=device-width">
     <meta name="keywords" content="dental clinic, cheap, napier, hastings">
@@ -31,15 +40,15 @@
 
     <header>
         <nav>
-            <img id='logo' src='./images/logo.svg'>
+            <img id='logo' src='./images/logo.svg' alt='friendly_dental_logo'>
             <div id="hamburger" class="hamburger-icon-container">
                 <span class="hamburger-icon"></span>
             </div>
             <div id='links'>
-                <a href='javascript:scrollTo("about")'>Services</a>
-                <a href='javascript:scrollTo("team")'>Meet the Team</a>
-                <a href='javascript:scrollTo("faq")'>FAQ</a>
-                <a href='javascript:scrollTo("contact")'>Contact Us</a>
+                <a href='#about'>Services</a>
+                <a href='#team'>Meet the Team</a>
+                <a href='#faq'>FAQ</a>
+                <a href='#contact'>Contact Us</a>
                 <button class='hollow' onclick="location.href='#contact';">Book Now</button>
             </div>
         </nav>
@@ -59,40 +68,40 @@
         <section id='aboutContent'>
             <div class='services'>
                 <div class='service'>
-                    <img src='./images/general.svg' />
+                    <img src='./images/general.svg' alt='general_icon' />
                     <h2>General Dentistry</h2>
                     <p>Regular checkups with us are an excellent way to ensure your teeth and gums stay healthy.</p>
-                    <a class='arrow noselect'>Learn More</a>
+                    <!-- <a class='arrow noselect'>Learn More</a> -->
                 </div>
                 <div class='service'>
-                    <img src='./images/extractions.svg' />
+                    <img src='./images/extractions.svg' alt='extractions_icon' />
                     <h2>Fillings & Extractions</h2>
                     <p>These are effective treatments for a wide range of dental concerns, and help to keep you pain free.</p>
-                    <a class='arrow noselect'>Learn More</a>
+                    <!-- <a class='arrow noselect'>Learn More</a> -->
                 </div>
                 <div class='service'>
-                    <img src='./images/orthodontics.svg' />
+                    <img src='./images/orthodontics.svg' alt='orthodontics_icon' />
                     <h2>Orthodontics</h2>
                     <p>Our orthodontics services can help to correct misaligned teeth and jaws.</p>
-                    <a class='arrow noselect'>Learn More</a>
+                    <!-- <a class='arrow noselect' href='/orthodontics.html'>Learn More</a> -->
                 </div>
                 <div class='service'>
-                    <img src='./images/new.svg' />
+                    <img src='./images/new.svg' alt='new_patients_icon' />
                     <h2>New Patients Welcome</h2>
                     <p>We are always accepting new patients - just ring to enquire.</p>
-                    <a class='arrow noselect'>Learn More</a>
+                    <!-- <a class='arrow noselect'>Learn More</a> -->
                 </div>
                 <div class='service'>
-                    <img src='./images/quotes.svg' />
+                    <img src='./images/quotes.svg' alt='quotes_icon' />
                     <h2>WINZ Quotes Available</h2>
                     <p>WINZ quotes are available as required.</p>
-                    <a class='arrow noselect'>Learn More</a>
+                    <!-- <a class='arrow noselect'>Learn More</a> -->
                 </div>
                 <div class='service'>
-                    <img src='images/kids.svg' />
+                    <img src='images/kids.svg' alt='kids_icon' />
                     <h2>Free Care For Under 18s</h2>
                     <p>All children and young adults under the age of 18 receive free treatment.</p>
-                    <a class='arrow noselect'>Learn More</a>
+                    <!-- <a class='arrow noselect'>Learn More</a> -->
                 </div>
             </div>
         </section>
@@ -106,7 +115,7 @@
 
         <section id='teamContent'>
             <div class='team-row'>
-                <div class='team-item pic' style='background-image: url("images/0.JPG")'>
+                <div class='team-item pic' role='image' aria-label='team_profile' style='background-image: url("images/0.JPG")'>
                 </div>
                 <div class='team-item bio'>
                     <h2>The Team</h2>
@@ -122,11 +131,11 @@
                     <p>After growing up in Auckland, a career in pharmacy brought me to Napier Hospital. I subsequently studied dentistry at the University of Otago, and graduated in 1993 to work in private, and hospital, dentistry here in Hawkes Bay. Kennedy Rd Dental was opened in 1995, and Omahu Rd Dental a few years later. The focus of my work since has been to provide accessible braces (orthodontics) to patients.</p>
                     <p>I have fantastic support in my partner Maree, and two wonderful grown up children, Tim and Sophie, as well as two adorable greyhounds Michael and Suzie. My interests are running, swimming, cycling and anything with a motor! As well as attending dental courses I am studying law.</p>
                 </div>
-                <div class='team-item pic' style='background-image: url("images/1.JPG")'>
+                <div class='team-item pic' role='image' aria-label='chris_profile' style='background-image: url("images/1.JPG")'>
                 </div>
             </div>
             <div class='team-row'>
-                <div class='team-item pic' style='background-image: url("images/2.JPG")'>
+                <div class='team-item pic' role='image' aria-label='siena_profile' style='background-image: url("images/2.JPG")'>
                 </div>
                 <div class='team-item bio'>
                     <h2>Siena Napoli</h2>                    
@@ -146,11 +155,11 @@
                     break to have our lovely son Oliver with my fiancé Nick.</p>
                     <p>I enjoy spending time with my family and our animals, Arya the cat and Charlie our Border Collie.</p>
                 </div>
-                <div class='team-item pic' style='background-image: url("images/4.jpg")'>
+                <div class='team-item pic' role='image' aria-label='sammy_profile' style='background-image: url("images/4.jpg")'>
                 </div>
             </div>
             <div class='team-row'>
-                <div class='team-item pic' style='background-image: url("images/june.jpg")'>
+                <div class='team-item pic' role='image' aria-label='june_profile' style='background-image: url("images/june.jpg")'>
                 </div>
                 <div class='team-item bio'>
                     <h2>June Fraser</h2>                    
@@ -176,7 +185,7 @@
                 <div class='faq-entry'>
                     <div class='faq-header'>
                         <h2>Why is dental treatment so expensive?</h2>
-                        <img src='./images/down-arrow.svg' />
+                        <img src='./images/down-arrow.svg' alt='down_arrow' />
                     </div>
                     <div class='faq-body'>
                         <p>When you visit a dentist, you are paying for expensive dental equipment, the materials used, and the time of university trained dental professionals and skilled tradespeople. At Friendly Dental, we do our best to keep costs as low as possible.</p>
@@ -185,7 +194,7 @@
                 <div class='faq-entry'>
                     <div class='faq-header'>
                         <h2>Why are some dentists more expensive than others?</h2>
-                        <img src='./images/down-arrow.svg' />
+                        <img src='./images/down-arrow.svg' alt='down_arrow' />
                     </div>
                     <div class='faq-body'>
                         <p>The price variation between practices is usually visible in the level of equipment sophistication. Similarly, different practices have dentists with varying ranges of expertise, and carry out a wider ranges of treatments, which greatly affects cost of treatment.</p>
@@ -194,7 +203,7 @@
                 <div class='faq-entry'>
                     <div class='faq-header'>
                         <h2>Which materials do you use for fillings?</h2>
-                        <img src='./images/down-arrow.svg' />
+                        <img src='./images/down-arrow.svg' alt='down_arrow' />
                     </div>
                     <div class='faq-body'>
                         <p>We have noticed concern from some patients about the safety of amalgam (from metal fillings) - there is no evidence that it is unsafe. We use amalgam, but let patients choose a different material if preferred.</p>
