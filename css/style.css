@@ -442,6 +442,7 @@ footer {
 }
 
 .before-after img {
+    width: 100%;
     margin-top: 6px;
     border-radius: 5px;
     box-shadow: 0 0 5px 0 rgba(0,0,0,0.5); 
@@ -587,7 +588,7 @@ footer {
     }
 
     .before-after img {
-        width: 240px;
+        /*width: 240px;*/
     }
 
 }
@@ -660,7 +661,15 @@ footer {
         font-size: 14px;
     }
 
+    h3 {
+        font-size: 12px;
+    }
+
     p {
+        font-size: 12px;
+    }
+
+    .procedure-navigator a {
         font-size: 12px;
     }
 
@@ -752,6 +761,16 @@ section {
         margin-top: 172px;
         width: 100%;
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .procedure-navigator {
+        display: none;
+    }
+
+    .procedure-content {
+        padding-left: 0 !important;
     }
 }
 
