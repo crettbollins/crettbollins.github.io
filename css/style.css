@@ -201,13 +201,13 @@ nav {
 
 #teamContent {
     padding: 0px !important;
-    max-width: 1044px;
+    width:100%;
     margin: 0 auto;
 }
 
 .team-row {
     display: flex;
-    padding: 16px 0;
+    /*padding: 16px 0;*/
 }
 
 .team-item {
@@ -217,7 +217,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 24px;
+    /*border-radius: 24px;*/
 
     /* Background stuff */
     background-repeat: no-repeat;
