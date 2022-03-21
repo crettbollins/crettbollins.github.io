@@ -203,6 +203,7 @@ nav {
   padding: 0px !important;
   width: 100%;
   margin: 0 auto;
+  max-width: 760px;
 }
 
 .team-row {
@@ -210,10 +211,18 @@ nav {
   /*padding: 16px 0;*/
 }
 
+.team-row:not(:first-of-type) {
+  margin-top: 24px;
+}
+
+.team-row:nth-child(2n) .team-item {
+  padding-left: 0;
+}
+
 .team-item {
   width: 50%;
   min-height: 300px;
-  padding: 32px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -402,10 +411,6 @@ footer {
   font-weight: 600;
 }
 
-.service-page p {
-  /*margin-top: 12px;*/
-}
-
 .service-page section {
   max-width: 886px;
   margin: 0 auto;
@@ -545,10 +550,6 @@ footer {
     max-width: 760px;
   }
 
-  #teamContent {
-    max-width: 760px;
-  }
-
   #aboutContent {
     max-width: 760px;
   }
@@ -585,10 +586,6 @@ footer {
   section {
     padding-left: 32px;
     padding-right: 32px;
-  }
-
-  .before-after img {
-    /*width: 240px;*/
   }
 }
 
