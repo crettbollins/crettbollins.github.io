@@ -369,6 +369,10 @@ footer {
   text-align: center;
 }
 
+.location .details {
+  margin: 0 auto;
+}
+
 .location h2 {
   margin-top: 16px;
 }
@@ -813,4 +817,8 @@ footer {
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+.unavailable {
+  opacity: 0.2;
 }
